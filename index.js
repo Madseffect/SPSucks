@@ -1,3 +1,10 @@
+$( document ).ready(function() {
+    $("incident-btn").click(function(){
+        incident= new Date(todayYY,todayMM,todayDD);
+        
+    })
+});
+
 var todayRaw = new Date();
 var todayYY = todayRaw.getFullYear();
 var todayMM = todayRaw.getMonth();
